@@ -6,6 +6,9 @@ target 'datastoreTemporal' do
   use_frameworks!
 
   # Pods for datastoreTemporal
+  pod 'Amplify'
+  pod 'AmplifyPlugins/AWSDataStorePlugin'
+  pod 'AmplifyPlugins/AWSAPIPlugin'
 
   target 'datastoreTemporalTests' do
     inherit! :search_paths
