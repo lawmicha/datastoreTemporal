@@ -1,0 +1,6 @@
+type Todo @model {
+  id: ID!
+  dateTime: AWSDateTime
+  date: AWSDate
+  time: AWSTime
+}
